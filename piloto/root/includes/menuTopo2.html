@@ -59,15 +59,17 @@
             <img style="width: 100px; cursor: pointer;" class="fixed-size" src="img/logoGuia.png" onclick="document.location.href = '#home'" ng-click="exibirBanner()">
         </div>
         <div class="col-md-5" style="opacity:1.0;">
-            
+
             <div class="col-sm-2" style="opacity:0.6;"><i class="glyphicon glyphicon-envelope" style="color:white;font-size:30px;"></i></div>
             <div class="col-sm-1 info" style="">2</div>
             <div class="col-sm-9" style="opacity:0.7;color: white;margin:13px 0 10px -30px;">Você tem 2 correspondências na guarita</div>
 
-            <div class="col-xs-2" style="margin-top:-3px;opacity:0.6;"><i class="glyphicon glyphicon-list" style="color:white;font-size:30px;"></i></div>
-            <div class="col-xs-10 info" style="margin-top:-4px;">4</div>
-            <div class="col-xs-10" style="opacity:0.7;color: white;margin:13px 0 0 -30px;">Você tem 4 informativos não lidos</div>
-            
+            <div style="cursor: pointer;" onclick="document.location.href = '#informativos'">
+                <div class="col-xs-2" style="margin-top:-3px;opacity:0.6;"><i class="glyphicon glyphicon-list" style="color:white;font-size:30px;"></i></div>
+                <div class="col-xs-10 info" style="margin-top:-4px;">4</div>
+                <div class="col-xs-10" style="opacity:0.7;color: white;margin:13px 0 0 -30px;" >Você tem 4 informativos não lidos</div>
+            </div>
+
         </div>
         <div class="col-md-5 pull-right" style="padding-top:24px;margin-right:-28px;">
             <div class="input-group input-group-sm">
@@ -102,7 +104,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#services" class="btn-lg"><i class="glyphicon glyphicon-calendar"></i>Agenda</a></li>
+                <li><a href="#eventos" class="btn-lg"><i class="glyphicon glyphicon-calendar"></i>Agenda</a></li>
                 <li><a href="#contact"  class="btn-lg"><i class="glyphicon glyphicon-earphone"></i>Contato</a></li>
                 <!--                <li><a href="#cadastrese" class="btn-lg" ng-click="esconderBanner();"><i class="glyphicon glyphicon-edit"></i>Cadastre-se</a></li>
                                 <li><a href="#about" class="btn-lg"><i class="glyphicon glyphicon-log-in "></i>Login</a></li>-->

@@ -110,7 +110,7 @@ while ($row = mysql_fetch_assoc($result)) {
                         </div>                        
                     </div>
                     <!-- produtosServicos.html -->
-                    <ng-view class="col-md-12"/>
+                    <ng-view style="width:{{parametros.larguraPagina}}%"/>
 
                 </div>
 

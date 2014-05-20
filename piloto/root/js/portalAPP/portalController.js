@@ -13,10 +13,12 @@ serviceApp.config(['$routeProvider',
         $routeProvider.
                 when('/home', {templateUrl: 'pages/produtosServicos.html', controller: 'portalController'}).
                 when('/cadastrese', {templateUrl: 'pages/cadastrese.html', controller: 'portalController'}).
+                when('/informativos', {templateUrl: 'pages/informativos.html', controller: 'portalController'}).
+                when('/eventos', {templateUrl: 'pages/eventos.html', controller: 'portalController'}).
 //                when('/create', {templateUrl: 'create.html', controller: 'portalController'}).
 //                when('/delete', {templateUrl: 'list.html', controller: 'portalController'}).
                 otherwise({
-                    redirectTo: '/home'
+                    redirectTo: '/informativos' // página inicial
                 });
     }
 ]);
