@@ -1,0 +1,40 @@
+<!-- produtosServicos.html -->
+<div class="row">
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Produtos</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li style="float:right" class="col-md-6">
+            <div class="input-group input-group-sm">
+                <input type="text" class="form-control" ng-model="filtroProdutos" placeholder="{{parametros.tituloPesquisaAnuncios}}">
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-search"></span>
+                </span>
+
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="row" style="border-left:solid 1px #DDDDDD;padding-top:10px;">
+
+    <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="item in produtos | filter:filtroProdutos">
+        <div class="thumbnail">
+            <img src="{{item.imagem}}" data-toggle="modal" href="#myModal" style="cursor:pointer;">
+            <div class="caption">
+                <h4 class="pull-right">R$ {{item.preco}}</h4>
+                <h4><a href="#" data-toggle="modal" data-target="#myModal" onclick='$("#modalContent").load("detalhar-item.html");'>{{item.produto}}</a>
+                    <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" onclick='$( "#modalContent" ).load( "detalhar-item.html" );'> -->
+                </h4>
+                <p>{{item.descricao}}</p>
+            </div>
+            <div class="ratings">
+                <p class="pull-right">15 reviews</p>
+                <p>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star-empty"></span>
+                </p>
+            </div>
+        </div>
+    </div>

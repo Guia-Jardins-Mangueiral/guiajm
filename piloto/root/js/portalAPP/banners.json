@@ -1,0 +1,17 @@
+[
+        {
+                "active": "active",
+                "source": "http://css-tricks.com/examples/ImageWipes/images/banner-2.jpg",
+                "tooltip": "aaa"
+                },
+        {
+                "active": "",
+                "source": "http://www.dnnsmart.net/desktopmodules/DNNGo_EffectCollection/ImageHandler.ashx?width=800&height=300&HomeDirectory=/Portals/0/icon/Team1/&fileName=triworks_abstract26_002.jpg&q=1&PortalId=0",
+                "tooltip": "bbb"
+                },
+        {
+                "active": "",
+                "source": "http://www.sebraemercados.com.br/wp-content/uploads/2014/04/040-01-produtos-organicos.jpg",
+                "tooltip": "ccc"
+                }
+]

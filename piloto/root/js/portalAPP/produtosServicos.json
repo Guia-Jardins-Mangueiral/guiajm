@@ -1,0 +1,44 @@
+[
+    {
+        "imagem": "http://www.artepratica.com/especiais/especialfineart/files/stacks_image_6.png",
+        "produto": "First Product",
+        "descricao": "See more snippets like this online store item at Bootsnipp - http://bootsnipp.com.",
+        "preco": "24,99",
+        "estrelas": 5
+    },
+    {
+        "imagem": "http://lorenzorodriguez.com.br/imoveis/wp-content/uploads/2014/03/image-83-320x150.jpeg",
+        "produto": "Second Product",
+        "descricao": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "preco": "64,99",
+        "estrelas": 4
+    },
+    {
+        "imagem": "http://kitsivanov.orgfree.com/images/templatemo_image_01.jpg",
+        "produto": "Third Product",
+        "descricao": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "preco": "74,99",
+        "estrelas": 4
+    },
+    {
+        "imagem": "http://e-see.com/apps/brandfm/guidelines/hpa/image-bg1.jpg",
+        "produto": "Fourth Product",
+        "descricao": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "preco": "84,99",
+        "estrelas": 3
+    },
+    {
+        "imagem": "http://e-see.com/apps/brandfm/guidelines/hpa/image-bg2.jpg",
+        "produto": "Fifth Product",
+        "descricao": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "preco": "94,99",
+        "estrelas": 4
+    },
+    {
+        "imagem": "http://www.lcwlegal.com/images/sitecontent/115363_ImageUpload.jpg",
+        "produto": "Last Product",
+        "descricao": "This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "preco": "200,00",
+        "estrelas": 4
+    }
+]

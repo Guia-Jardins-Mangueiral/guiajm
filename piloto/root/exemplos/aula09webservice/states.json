@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Alagoas",
+        "capital": "Maceió",
+        "renda": 2043
+    },
+    {
+        "name": "Minas Gerais",
+        "capital": "Belo Horizonte",
+        "renda": 2000
+    },
+    {
+        "name": "São Paulo",
+        "capital": "São Paulo",
+        "renda": 2999.45
+    }]
