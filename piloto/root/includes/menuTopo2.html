@@ -1,5 +1,5 @@
 <style>
-    .navbar{background-color:#64a46f;border-top:none;}
+    .navbar{border-top:none;}
     /*    .grad {
             background: -webkit-linear-gradient(left, #727272, #727272, black, black, black);  For Safari 5.1 to 6.0 
             background: -o-linear-gradient(right, #727272 , #727272, black, black, black);  For Opera 11.1 to 12.0 
@@ -23,14 +23,14 @@
     .container > #primeiroMenuRight {margin-right:-14px;}
     .divMenu {padding-left: -50px;}
     .info{
-        border:solid 3px #ffff66;
+        border:solid 3px #FFFF00;
         padding:0px;
-        color:black;
+        color: #d15100;
         font-weight: bold;
         text-align: center;
         border-radius: 50px;
         margin-top:-3px;
-        background-color:#64a46f;
+        background-color:#C6E1C5;
         font-family:verdana;
         margin-left:-24px;
         font-size:9px;
@@ -53,8 +53,8 @@
 </div>
 
 <!-- Segundo Menu -->
-<div class="container" style="background-color: #04450f;width:100%;padding:10px 0 10px 0;margin-bottom: -1px;">
-    <div class="container" style="width:{{parametros.larguraPagina - 1}}%;background-color: #04450f;min-width: {{minWidth}};">
+<div class="container" style="background-color: {{parametros.primeiraCorMenu}};width:100%;padding:10px 0 10px 0;margin-bottom: -1px;">
+    <div class="container" style="width:{{parametros.larguraPagina - 1}}%;background-color: {{parametros.primeiraCorMenu}};min-width: {{minWidth}};">
         <div class="col-md-2 pull-left" style="margin-left:-30px;">
             <img style="width: 100px; cursor: pointer;" class="fixed-size" src="img/logoGuia.png" onclick="document.location.href = '#home'" ng-click="exibirBanner()">
         </div>
@@ -83,7 +83,7 @@
 
 
 <!-- Terceiro Menu -->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default" role="navigation" style="background-color:{{parametros.segundaCorMenu}};">
     <div class="container-fluid" style="width:{{parametros.larguraPagina}}%;min-width: {{minWidth}};">
         <div class="collapse navbar-collapse" style="padding-left:0px;margin-left:-13px;padding-right:2px;">
             <ul class="nav navbar-nav">

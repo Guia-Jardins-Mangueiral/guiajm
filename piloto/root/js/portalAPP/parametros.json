@@ -2,5 +2,7 @@
     "larguraPagina": 55,
     "minWidth": "400px",
     "tituloPesquisaSite": "Pesquisar no site",
-    "tituloPesquisaAnuncios": "o que você procura?"
+    "tituloPesquisaAnuncios": "o que você procura?",
+    "primeiraCorMenu": "#517C4F",
+    "segundaCorMenu": "#80A37E"
 }
