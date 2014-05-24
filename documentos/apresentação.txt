@@ -1,0 +1,35 @@
+criar grupos de moradores no cadastro de moradores
+grupos:
+	- casa 2 qtos 
+	- casa 3 qtos
+	- torre térreo
+	- torre andar
+	- agrupar por rua
+
+1º módulo
+
+Cadastro de Moradores
+Notícias
+Gerenciamento de Reservas
+Mensagens (SMS e E-mail)
+2ª via de boleto
+Avisos
+Ocorrências
+Corpo Diretivo
+Funcionários do Condomínio
+Telefones Uteis
+Galeria de Fotos
+Agenda de Eventos
+Sugestões de Moradores
+Cadastro de Visitantes
+Prestadores de Serviços
+Obras e Providências (o que está sendo feito no condomínio)
+
+
+Resoluções de assembléias
+
+Serviços / Abrir Chamado
+Correspondências
+Documentos
+Enquete
+Classificados
